@@ -161,7 +161,7 @@ class _HomePageState extends State<HomePage> {
     return ListView.builder(
       padding: EdgeInsets.all(16),
       scrollDirection: Axis.horizontal,
-      itemCount: items.length,
+      // itemCount: items.length,
       itemBuilder: (context, index) {
         return Container(
           height: 50,
